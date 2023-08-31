@@ -1,15 +1,38 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 31/08/2023
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 
+A, B, C : real
+AB : real
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+escreval("Valor B")
+leia(B)
+
+escreval("Valor de A")
+leia(A)
+
+escreval("Valor de c")
+leia(C)
+
+
+
+
+
+AB <- A + B
+se (AB > C) entao
+escreval("A + B > C")
+senao
+escreval("A + B < C")
+
+
+fimse
 
 
 Fimalgoritmo
